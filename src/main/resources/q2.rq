@@ -1,0 +1,1 @@
+PREFIX : <http://meraka/moss/exampleBooks.owl#> SELECT ?x WHERE { ?x a :Book }

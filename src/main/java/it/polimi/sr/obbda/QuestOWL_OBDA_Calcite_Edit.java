@@ -52,7 +52,7 @@ public class QuestOWL_OBDA_Calcite_Edit {
      *
      */
     final String owlFile = "src/main/resources/exampleBooks.owl";
-    final String obdaFile = "src/main/resources/calcite/exampleBooks.obda";
+    final String obdaFile = "src/main/resources/calcite/single.obda";
     final String sparqlFile = "src/main/resources/q2.rq";
 
     /**
@@ -63,7 +63,6 @@ public class QuestOWL_OBDA_Calcite_Edit {
             QuestOWL_OBDA_Calcite_Edit example = new QuestOWL_OBDA_Calcite_Edit();
             example.run();
         } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 

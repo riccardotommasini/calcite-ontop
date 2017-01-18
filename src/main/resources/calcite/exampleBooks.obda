@@ -8,15 +8,12 @@ quest:		http://obda.org/quest#
 
 [SourceDeclaration]
 sourceUri	datasource1
-connectionUrl	jdbc:calcite:
-username	postgres
-password    
+connectionUrl	 jdbc:calcite:
+username	root
+password    mysql
 driverClass	org.apache.calcite.jdbc.Driver
 
 [MappingDeclaration] @collection [[
-mappingId	cl_Authors
-target		:author/{wr_code}/ a :Author ; :name {wr_name} .
-source		select "wr_code", "wr_name" from "tb_affiliated_writers"
 
 mappingId	cl_Books
 target		:book/{bk_code}/ a :Book ; :title {bk_title} .

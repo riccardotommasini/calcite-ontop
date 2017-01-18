@@ -14,6 +14,10 @@ import java.sql.SQLException;
 
 /**
  * Created by Riccardo on 08/01/2017.
+ *
+ * This class prints out the metadata as they are seen from Calcite.
+ * I need to check if they are compatible between databases so that we can provide some
+ * sort of Calcite dialect for SQL into Ontop.
  */
 public class CalciteMetadata {
 
